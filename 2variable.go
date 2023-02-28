@@ -1,12 +1,12 @@
 package main
 import "fmt"
 
-//
+
 
 func main(){
 	// unused variables always give an error
 
-	//1st method
+	//1st method 
     var a int //declaration
 	a = 55    //initialization
 
@@ -18,6 +18,8 @@ func main(){
 
 	//4th method
 	d := 500 
-	
+
+
+
 	fmt.Println(a,b,c,d)
 }
