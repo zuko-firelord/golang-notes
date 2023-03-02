@@ -5,6 +5,8 @@ import "fmt"
 
 func main(){
 	// unused variables always give an error
+    //Uninitialized variables are given its zero value (e.g int = 0, string = "", bool = false)
+
 
 	//1st method 
     var a int //declaration
