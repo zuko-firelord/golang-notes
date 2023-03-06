@@ -13,7 +13,7 @@ func main()  {
 	//method 3 (undefine size)
 	c := [...]int{1, 2, 3, 4, 5} //the size of the array from the number of elements in the initialization list
    	//OR
-	letters := []int{1, 5, 3, 5}
+	letters := []int{1, 5, 3, 5} //slice, not a array
 	c[3] = 30 //reassign value
 
 	newarr := c
