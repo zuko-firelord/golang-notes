@@ -23,4 +23,5 @@ func main()  {
 	}else{
 	  println(value, "Equals 10")
 	}
+	//Go doesn't have Ternary Operator ( x < 0 ? A : B )
 }
