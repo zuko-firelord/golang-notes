@@ -1,12 +1,13 @@
 package main
-
+//we use a synchronization primitive called a waitgroup. A waitgroup is used to wait for a collection of goroutines to finish executing their tasks before proceeding further.
 import (
 	"fmt"
 	"net/http"
 	"sync"
 )
 var wg sync.WaitGroup //usually pointer
-
+//This is useful in situations where we need to collect results from multiple goroutines, 
+//or when we need to make sure that a certain set of goroutines have completed their tasks before we proceed with the next set of tasks.
 func main()  {
 	websitelist := []string{
 		"https://google.com",
