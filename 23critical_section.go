@@ -56,4 +56,6 @@ Run this code in your local as the playground is deterministic and the race cond
 Run this program multiple times in your local machine and you can see that the output will be different for each time 
 because of race condition. Some of the outputs which I encountered are final value of x 941, final value of x 928, 
 final value of x 922 and so on.
+
+run command to check race condition: go run --race . 
 */
